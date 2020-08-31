@@ -1,0 +1,19 @@
+{
+  "name": "vue-ultimate-skeleton-cards",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Neelansh Mathur",
+    "email": "neelansh15@outlook.com"
+  },
+  "repository": "https://github.com/neelansh15/vue-ultimate-skeleton-cards/vue-ultimate-skeleton-cards",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
