@@ -1,0 +1,89 @@
+.skeleton-card {
+  overflow: hidden;
+  position: relative;
+}
+
+.skeleton-card-loader {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  z-index: 1;
+  -webkit-animation: loading infinite;
+          animation: loading infinite;
+}
+
+@-webkit-keyframes loading {
+  0% {
+    left: -50%;
+    width: 50%;
+  }
+  100% {
+    left: 100%;
+    width: 30%;
+  }
+}
+
+@keyframes loading {
+  0% {
+    left: -50%;
+    width: 50%;
+  }
+  100% {
+    left: 100%;
+    width: 30%;
+  }
+}
+
+.skeleton-box-normal {
+  width: 100%;
+  height: 1em;
+  position: relative;
+  z-index: 3;
+}
+
+.skeleton-button {
+  height: 2em;
+  width: 5em;
+  margin-right: 0.2em;
+  display: block;
+  position: relative;
+  z-index: 3;
+}
+
+.circle {
+  height: 3em;
+  width: 3em;
+  border-radius: 100%;
+  display: inline-block;
+  margin-right: 0.5em;
+  position: relative;
+  z-index: 3;
+}
+
+.widebox {
+  width: 100%;
+  height: 10em;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.skeleton-box {
+  width: 100%;
+  height: 1.1em;
+  margin-bottom: 0.5em;
+  position: relative;
+  z-index: 3;
+}
+
+.skeleton-square {
+  width: 3em;
+  height: 3em;
+  position: relative;
+  z-index: 3;
+  margin-bottom: 0.5em;
+}
+/*# sourceMappingURL=style.css.map */
