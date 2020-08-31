@@ -1,0 +1,13 @@
+{
+  "name": "vue-ultimate-skeleton-cards",
+  "version": "1.0.0",
+  "description": "The Ultimate fully-customizable skeleton cards plugin for Vue",
+  "main": "index.js",
+  "repository": "https://github.com/neelansh15/vue-ultimate-skeleton-cards.git",
+  "author": "Neelansh Mathur <53081208+neelansh15@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies":{
+	"tinycolor2": "^1.4.1"
+   }
+}
