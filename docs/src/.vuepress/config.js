@@ -36,10 +36,6 @@ module.exports = {
       {
         text: 'Guide',
         link: '/guide/',
-      },
-      {
-        text: 'Installation and Usage',
-        link : '/guide/installation-and-usage'
       }
     ],
     sidebar: {

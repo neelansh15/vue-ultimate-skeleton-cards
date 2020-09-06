@@ -17,7 +17,7 @@ Vue.use(SkeletonCards)
 ```
 The name with which you import doesn't matter.  
 
-In your component template, you can use [any of the two components](/guide/components) without importing them
+In your component template, you can use [any of the two components](/guide/components) without importing them:
 ```vue
 <SkeletonCard />
 ```
