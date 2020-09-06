@@ -16,5 +16,8 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.4",
     "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "tinycolor2": "^1.4.1"
   }
 }

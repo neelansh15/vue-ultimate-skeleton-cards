@@ -13,6 +13,8 @@ This is the easist to get started with. It provides by default a dark mode Skele
 <SkeletonCard primary="crimson" />
 ```
 
+<SkeletonCard />
+
 ```vue
 <SkeletonCard primary="#112233" structure="601122033" />
 ```
@@ -33,8 +35,8 @@ Here is the list of props that it accepts:
 
 ### The Structure prop
 
-The structure prop is a unique and super-easy way to define a basic vertical structure with a string of numbers each corresponding to a specific element type (for example a profile logo or header bar).  
-For horizontal cards and more complex layouts, please refer to the [SkeletonScaffold Component](#skeletonscaffold)
+The structure prop is a **unique** and **super-easy** way to define a basic vertical structure with a string of numbers each corresponding to a specific element type (for example a profile logo or header bar).  
+For horizontal cards and more complex layouts, please refer to the [SkeletonScaffold Component](#skeletonscaffold).
 
 Here is the mapping of the numbers:
 | Number | Corresponds to | Properties |
