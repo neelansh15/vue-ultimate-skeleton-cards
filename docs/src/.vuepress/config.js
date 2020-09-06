@@ -38,12 +38,8 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Installation and Usage',
+        link : '/guide/installation-and-usage'
       }
     ],
     sidebar: {
@@ -53,7 +49,8 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'installation-and-usage',
+            'components',
           ]
         }
       ],
