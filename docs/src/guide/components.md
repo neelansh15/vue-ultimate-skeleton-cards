@@ -5,19 +5,20 @@ Vue Ultimate Skeleton Cards (VUSC) gives you two globally defined components to 
 1. [SkeletonCard](#skeletoncard)
 2. [SkeletonScaffold](#skeletonscaffold)
 
+
 ## SkeletonCard
 
 This is the easist to get started with. It provides by default a dark mode Skeleton Card for which you can customize various properties like color, animation, [structure](#the-structure-prop), etc.
 
 ```vue
-<SkeletonCard primary="crimson" />
-```
-
 <SkeletonCard />
+```
+<SkeletonCard class="responsive-card-width" />
 
 ```vue
-<SkeletonCard primary="#112233" structure="601122033" />
+<SkeletonCard primary="crimson" structure="60011203333" />
 ```
+<SkeletonCard primary="crimson" structure="60011203333" class="responsive-card-width" />
 
 Here is the list of props that it accepts:
 ### SkeletonCard Props
@@ -56,16 +57,19 @@ Play around with it!
 Here are some examples which showcase this prop:
 
 ```vue
-<SkeletonCard primary="crimson" structure="12333" animDisable>
+<SkeletonCard primary="crimson" structure="12333" animDisable />
 ```
+<SkeletonCard primary="crimson" structure="12333" animDisable class="responsive-card-width" />
 
 ```vue
-<SkeletonCard primary="royalblue" structure="701120333" animDisable>
+<SkeletonCard primary="royalblue" structure="701120333" animDisable />
 ```
+<SkeletonCard primary="royalblue" structure="701120333" animDisable class="responsive-card-width" />
 
 ```vue
-<SkeletonCard primary="orange" structure="601120333044" animDisable>
+<SkeletonCard primary="orange" structure="600112033304" animDisable />
 ```
+<SkeletonCard primary="orange" structure="600112033304" animDisable class="responsive-card-width" />
 
 ## SkeletonScaffold
 
@@ -86,6 +90,14 @@ This way of scaffolding with vue directives is especially useful as you can use 
     <div v-mBox style="height: 1.3em; width: 60%" />
 </SkeletonScaffold>
 ```
+<SkeletonScaffold primary="teal">
+<p></p>
+    <div v-mSquare style="border-radius: 100%"></div>
+    <br />
+    <div v-mBox v-mDark style="height: 1.5em"></div>
+    <div v-mBox v-mDark style="height: 1.5em"></div>
+    <div v-mBox style="height: 1.3em; width: 60%"></div>
+</SkeletonScaffold>
   
 
 `SkeletonScaffold` takes *almost* the same props as the [SkeletonCard](#skeletoncard) component except that it doesn't have the `structure` and `contrast` prop.
@@ -112,6 +124,8 @@ Here is the list of global directives available for use with `div` elements:
 | v-mButton | Button | Darker than parent by 5 points | 5em, 2em
 | v-mCardImg | **Pins to the top**. Big square for main image in a vertical card. | Darker than parent by 10 points | 100%, 10em
 
+Moreover, `mBox` and `mSquare` have default bottom margin of `0.5em`
+
 ### Utility Directives
 | Vue Directive | Property |
 | ------------- | -------- |
@@ -124,25 +138,58 @@ Here is the list of global directives available for use with `div` elements:
 Here is an example which uses all of these 7 directives:
 ```vue
 <SkeletonScaffold primary="purple" animDisable>
-    <div v-mCardImg /> <!-- Card Image -->
+    <div v-mCardImg></div> <!-- Card Image -->
     <br />
     
-    <div v-mSquare style="border-radius: 100%" /> <!-- Profile image -->
+    <div v-mSquare style="border-radius: 100%"></div> <!-- Profile image -->
     <br />
 
-    <div v-mBox v-mDark style="height: 1.5em" /> <!-- Heading -->
-    <div v-mBox v-mDark style="height: 1.5em" /> <!-- Heading -->
-    <div v-mBox style="height: 1.3em; width: 60%" /> <!-- Sub-Heading -->
+    <div v-mBox v-mDark style="height: 1.5em"></div> <!-- Heading -->
+    <div v-mBox v-mDark style="height: 1.5em"></div> <!-- Heading -->
+    <div v-mBox style="height: 1.3em; width: 60%"></div> <!-- Sub-Heading -->
     <br />
 
     <!-- Content Boxes -->
-    <div v-mBox v-mLight v-mRandomWidth />
-    <div v-mBox v-mLight v-mRandomWidth />
-    <div v-mBox v-mLight v-mRandomWidth />
-    <div v-mBox v-mLight v-mRandomWidth />
+    <div v-mBox v-mLight v-mRandomWidth></div>
+    <div v-mBox v-mLight v-mRandomWidth></div>
+    <div v-mBox v-mLight v-mRandomWidth></div>
+    <div v-mBox v-mLight v-mRandomWidth></div>
     <br />
 
     <!-- Default Rectangular Button -->
-    <div v-mButton />
+    <div v-mButton></div>
 </SkeletonScaffold>
 ```
+<SkeletonScaffold primary="purple" animDisable style="width:60%">
+  <span></span>
+    <div v-mCardImg></div>
+    <br />
+<span></span>
+    <div v-mSquare style="border-radius: 100%"></div>
+    <br />
+<span></span>
+    <div v-mBox v-mDark style="height: 1.5em"></div>
+    <div v-mBox v-mDark style="height: 1.5em"></div>
+    <div v-mBox style="height: 1.3em; width: 60%"></div>
+    <br />
+<span></span>
+    <div v-mBox v-mLight v-mRandomWidth></div>
+    <div v-mBox v-mLight v-mRandomWidth></div>
+    <div v-mBox v-mLight v-mRandomWidth></div>
+    <div v-mBox v-mLight v-mRandomWidth></div>
+    <br />
+<span></span>
+    <div v-mButton></div>
+</SkeletonScaffold>
+
+
+<style>
+.responsive-card-width{
+    width: 40%;
+}
+@media only screen and (max-width: 768px){
+    .responsive-card-width{
+        width: 70%
+    }
+}
+</style>
