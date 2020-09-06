@@ -18,10 +18,12 @@ This is the easist to get started with. It provides by default a dark mode Skele
 ```
 
 Here is the list of props that it accepts:
+### SkeletonCard Props
 
 | Prop name          | Type    | Description                                                                                                              | Default     |
 | ------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------ | ----------- |
 | primary            | String  | Primary color of your card                                                                                               | #242424     |
+| padding            | String  | Padding                                                                                                                  | 2em 3em     |
 | borderRadius       | String  | Border radius of the card rounded by default                                                                             | 20px        |
 | contrast           | Number  | Contrast between the card color and color of the inner blocks                                                            | 10          |
 | animDisable        | Boolean | Disable the animation or not                                                                                             | false       |
@@ -82,8 +84,22 @@ This way of scaffolding with vue directives is especially useful as you can use 
     <div v-mBox style="height: 1.3em; width: 60%" />
 </SkeletonScaffold>
 ```
+  
 
-Here is the list of global directives available:
+`SkeletonScaffold` takes *almost* the same props as the [SkeletonCard](#skeletoncard) component except that it doesn't have the `structure` and `contrast` prop.
+### SkeletonScaffold Props
+| Prop name          | Type    | Description                                                                                                              | Default     |
+| ------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| primary            | String  | Primary color of your card                                                                                               | #242424     |
+| padding            | String  | Padding                                                                                                                  | "2em 3em"   |
+| borderRadius       | String  | Border radius of the card rounded by default                                                                             | 20px        |
+| animDisable        | Boolean | Disable the animation or not                                                                                             | false       |
+| animDuration       | String  | Animation duration                                                                                                       | 1.5s        |
+| animTimingFunction | String  | Timing function for the animation with a bezier curve or the predefined css `ease`, `ease-in`, `ease-out`, `ease-in-out` | CSS default |
+
+
+For the structure itself, use the pre-defined global directives below inside the component.  
+Here is the list of global directives available for use with `div` elements:
 
 ### Base Directives
 
@@ -105,7 +121,7 @@ Here is the list of global directives available:
 
 Here is an example which uses all of these 7 directives:
 ```vue
-<SkeletonScaffold primary="purple">
+<SkeletonScaffold primary="purple" animDisable>
     <div v-mCardImg /> <!-- Card Image -->
     <br />
     
