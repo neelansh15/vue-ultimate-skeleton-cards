@@ -51,6 +51,7 @@ module.exports = {
             '',
             'installation-and-usage',
             'components',
+            'contributing'
           ]
         }
       ],
