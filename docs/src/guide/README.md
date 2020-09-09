@@ -25,6 +25,10 @@ If you feel the [structure prop](/guide/components.html#the-structure-prop) of t
 
 Read the next section to learn how to install it.
 
+:::warning
+Currently the plugin can't be used directly in the browser. It can be used in a Vue CLI project or with vue-loader installed.
+:::
+
 <style>
 .responsive-card-width{
     width: 40%;
