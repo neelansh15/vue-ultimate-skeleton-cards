@@ -1,5 +1,5 @@
 <p align="center">
-<img src="docs/src/.vuepress/public/VUSC_3D.png" width="200" height="200" />
+<img src="docs-dev/src/.vuepress/public/VUSC_3D.png" width="200" height="200" />
 </p>
 
 <h1 align="center">Vue Ultimate Skeleton Cards</h1>

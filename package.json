@@ -1,6 +1,6 @@
 {
   "name": "vue-ultimate-skeleton-cards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Ultimate fully-customizable skeleton cards plugin for Vue",
   "main": "index.js",
   "repository": "https://github.com/neelansh15/vue-ultimate-skeleton-cards.git",
