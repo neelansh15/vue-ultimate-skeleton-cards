@@ -160,7 +160,7 @@ Here is an example which uses all of these 7 directives:
     <div v-mButton></div>
 </SkeletonScaffold>
 ```
-<SkeletonScaffold primary="purple" animDisable style="width:60%">
+<SkeletonScaffold primary="purple" animDisable class="responsive-card-width-2">
   <span></span>
     <div v-mCardImg></div>
     <br />
@@ -190,6 +190,15 @@ Here is an example which uses all of these 7 directives:
 @media only screen and (max-width: 768px){
     .responsive-card-width{
         width: 70%
+    }
+}
+
+.responsive-card-width-2{
+    width: 60%;
+}
+@media only screen and (max-width: 768px){
+    .responsive-card-width-2{
+        width: 100%
     }
 }
 </style>

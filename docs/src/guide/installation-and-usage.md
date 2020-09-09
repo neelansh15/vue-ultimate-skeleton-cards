@@ -10,14 +10,14 @@ npm install vue-ultimate-skeleton-cards
 ```
 
 ## Usage
-Open `main.js` and add the following along with other imports:
+In `main.js` add the following along with other imports:
 ```js
 import SkeletonCards from 'vue-ultimate-skeleton-cards'
 Vue.use(SkeletonCards)
 ```
 The name with which you import doesn't matter.  
 
-In your component template, you can use [any of the two components](/guide/components) without importing them:
+In your component template, you can use [any of the two components](/guide/components) without registering them:
 ```vue
 <SkeletonCard />
 ```

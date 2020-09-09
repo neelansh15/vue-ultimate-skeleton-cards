@@ -7,7 +7,7 @@
   "author": "Neelansh Mathur <53081208+neelansh15@users.noreply.github.com>",
   "license": "MIT",
   "private": false,
-  "dependencies":{
-	"tinycolor2": "^1.4.1"
-   }
+  "dependencies": {
+    "tinycolor2": "^1.4.1"
+  }
 }

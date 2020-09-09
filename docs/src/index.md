@@ -5,11 +5,11 @@ tagline:
 actionText: Quick Start →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+- title: Simple usage
+  details: Just drop in a component to get started.
+- title: Minimal
+  details: Customize the entire layout of your skeleton card with just a small string of numbers.
+- title: Fully customizable
+  details: Use your own css layout for complete flexibility.
 footer: Made by Neelansh Mathur with ❤️
 ---

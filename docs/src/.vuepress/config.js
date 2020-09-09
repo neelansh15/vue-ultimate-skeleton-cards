@@ -27,15 +27,19 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: 'https://github.com/neelansh15/vue-ultimate-skeleton-cards',
     editLinks: false,
-    docsDir: '',
+    docsDir: 'docs/',
     editLinkText: '',
     lastUpdated: false,
     nav: [
       {
         text: 'Guide',
         link: '/guide/',
+      },
+      {
+        text: 'Twitter',
+        link: 'https://twitter.com/mneelansh15'
       }
     ],
     sidebar: {
