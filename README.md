@@ -18,12 +18,37 @@ It gives you *two* ways of defining a skeleton card that **suits your needs**.
 The cards have a unique loading animation which is different from the legacy skeleton cards you have seen till now.  
 There is more eye-catching movement in these cards to captivate your viewers.
 
-  
+## Installation
+
+Run either one in your Vue directory:  
+```Bison
+yarn add vue-ultimate-skeleton-cards
+or
+npm install vue-ultimate-skeleton-cards
+```
+
+## Usage
+In `main.js` add the following along with other imports:
+```js
+import SkeletonCards from 'vue-ultimate-skeleton-cards'
+Vue.use(SkeletonCards)
+```
+The name with which you import doesn't matter.  
+
+In your component template, you can use [any of the two components](/guide/components) without registering them:
+```vue
+<SkeletonCard />
+```
+or
+```vue
+<SkeletonScaffold>
+//Your custom layout
+</SkeletonScaffold>
+```  
 
 There are two globally available components for you to use:
-  * SkeletonCard - Quickly create a card and define its structure with just a small string of numbers
-  * SkeletonScaffold - Full control over the card's layout with custom Vue directives and your own basic CSS
-
+  * [SkeletonCard](#SkeletonCard) - Quickly create a card and define its structure with just a small string of numbers
+  * [SkeletonScaffold](#SkeletonScaffold) - Full control over the card's layout with custom Vue directives and your own basic CSS
 
 # SkeletonCard
 This is the easist to get started with. It provides by default a dark mode Skeleton Card for which you can customize various properties like color, animation, structure, etc.
