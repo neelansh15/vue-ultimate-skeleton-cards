@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /VUSC.png
+heroImage: /VUSC_3D.png
 tagline: 
 actionText: Quick Start →
 actionLink: /guide/
