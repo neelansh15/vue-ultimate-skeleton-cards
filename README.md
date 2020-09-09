@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://freeimage.host/i/232WEG" width="200" height="200" />
+<img src="https://iili.io/232WEG.md.png" width="200" height="200" />
 </p>
 
 <h1 align="center">Vue Ultimate Skeleton Cards</h1>
