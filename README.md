@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/static/v1?label=Made%20with&message=VueJS&color=limegreen&style=for-the-badge" />
 </p>
 
-[Check out the guide and demo](rgrgrgrg) for full information. This is just an overview.  
+[Check out the guide and demo](http://vusc.surge.sh) for full information. This is just an overview.  
 
 Vue Ultimate Skeleton Cards (Or VUSC for short) is a cool customizable skeleton card plugin for VueJS.  
 It gives you *two* ways of defining a skeleton card that **suits your needs**.  
