@@ -6,6 +6,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/static/v1?label=Made%20with&message=VueJS&color=limegreen&style=for-the-badge" />
+<img src="https://img.shields.io/npm/dt/vue-ultimate-skeleton-cards?style=for-the-badge" />
 </p>
 
 [Check out the guide and demo](http://vusc.surge.sh) for full information. This is just an overview.  
