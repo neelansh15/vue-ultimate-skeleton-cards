@@ -11,7 +11,6 @@
 
 [Check out the guide and demo](http://vusc.surge.sh) for full information. This is just an overview.  
 
-> **Note:** This version is for Vue 2. A new version for Vue 3 :rocket: is under development and will be released soon :smiley:
 
 Vue Ultimate Skeleton Cards (Or VUSC for short) is a cool customizable skeleton card plugin for VueJS.  
 It gives you *two* ways of defining a skeleton card that **suits your needs**.  
