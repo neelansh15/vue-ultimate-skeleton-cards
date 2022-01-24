@@ -20,6 +20,8 @@ It gives you *two* ways of defining a skeleton card that **suits your needs**.
 The cards have a unique loading animation which is different from the legacy skeleton cards you have seen till now.  
 There is more eye-catching movement in these cards to captivate your viewers.
 
+[![MadeWithVueJs.com shield](https://madewithvuejs.com/storage/repo-shields/2686-shield.svg)](https://madewithvuejs.com/p/vue-ultimate-skeleton-cards/shield-link)
+
 ## Installation
 
 Run either one in your Vue directory:  
